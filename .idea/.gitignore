@@ -1,0 +1,87 @@
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+requests/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment config
+.env
+.env.local
+*.pem
+*.key
+
+# Docker artifacts
+*.dockerfile
+docker-compose.override.yml
+
+
+########################################
+# Go-specific ignores
+########################################
+
+# Go build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go module build cache (for local workspace)
+bin/
+pkg/
+build/
+dist/
+
+# Test output
+coverage.out
+
+
+########################################
+# Editor / tooling
+########################################
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+# MacOS metadata
+.AppleDouble
+.LSOverride
+
+########################################
+# Kafka / eBPF / Network tools
+########################################
+
+*.pcap
+*.ebpf.o
+*.bpffile
+
+########################################
+# Optional: local override configs
+########################################
+
+config.local.yaml
+settings.local.json
